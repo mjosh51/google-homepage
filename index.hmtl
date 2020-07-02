@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Google</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/yourcode.js"></script>
+		<link rel="stylesheet" type="text/css" href="mygoogle.css">
+	</head>
+
+	<body>
+			<header>
+			<nav class="navbar pl-1">
+				<ul class="navbar nav justify-content-start">
+					<li class="nav-item">
+						<a href="#" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Store</a>
+					</li>
+				</ul>
+
+			
+				<ul class="navbar nav justify-content-end">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Gmail</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Images</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link"><img src="google_product_link.PNG" style="width: 20px; height: 20px;"></a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link font-weight-bold sign-in btn-primary">Sign in</a>
+					</li>
+				</ul>
+			</nav>
+			</header>
+
+			<main>
+			<section class="main-parent">
+			<div class="main mx-auto d-block">
+				<img src="google-logo.PNG" class="img-responsive mx-auto d-block">
+				<div class="main_input mx-auto d-block">
+					<div class="sub-main-input">
+					<a href="#" class="mx-auto search-bar"><i class="fas fa-search"></i></a>
+					<input type="text" name="search">
+					</div>
+				</div>
+				<div class="text-center mt-4">
+				<a href="#" class="btn btn-link main-button mr-1">Google Search</a>
+				<a href="#" class="btn btn-link main-button ml-1">I'm Feeling Lucky</a>
+				</div>
+			</div>
+
+			
+			</section>
+			</main>
+
+
+			<footer class="container-fluid footer-styling fixed-bottom justify-content-start">
+				<nav class="navbar pl-1">
+				<ul class="navbar nav justify-content-start">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Advertising</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Business</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">How Search works</a>
+					</li>
+				</ul>
+
+			
+				<ul class="navbar nav justify-content-end">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Privacy</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Terms</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Settings</a>
+					</li>
+				</ul>
+				</nav>
+			</footer>
+
+		<!-- jQuery JS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+	</body>
+	</html>
