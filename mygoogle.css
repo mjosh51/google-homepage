@@ -4,7 +4,7 @@ body {
 	font-family: arial,sans-serif;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	overflow-y: hidden;
 }
 
 nav a {
@@ -62,10 +62,6 @@ a:hover {
 	line-height: 1.5rem;
 }
 
-.mb-parent {
-	margin
-}
-
 .main-button {
 	background: #f2f2f2;
 	border: 1px solid #f2f2f2;
@@ -94,4 +90,26 @@ footer a {
 	background: #f2f2f2;
 	border-top: 1px solid #e4e4e4;
 	height: 70px;
+}
+
+@media all and (max-width: 500px) {
+
+body {
+	font-family: arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-y: auto;
+}
+
+.main-parent {
+	margin: 70px 0 300px;
+	
+}
+
+.footer-styling {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	height: 100px;
+}
+
 }
